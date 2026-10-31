@@ -1,0 +1,95 @@
+# do verification/check_memory.do
+# D:/FPGA/build_boot_audio_20261025/src/user_source/hdl_source
+# D:/FPGA/build_boot_audio_20261025/src/td_project
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 21:07:16 on Oct 25,2026
+# vlog -sv -permissive "+incdir+D:/FPGA/build_boot_audio_20261025/src/td_project" "+incdir+D:/FPGA/build_boot_audio_20261025/src/user_source/hdl_source/include" D:/FPGA/build_boot_audio_20261025/src/user_source/hdl_source/include/sdr_as_ram.enc.v D:/FPGA/build_boot_audio_20261025/src/user_source/hdl_source/include/sdr_init_ref.enc.v D:/FPGA/build_boot_audio_20261025/src/user_source/hdl_source/include/sdr_wrrd.enc.v 
+# -- Compiling module sdr_as_ram
+# -- Compiling module sdr_init_ref
+# ** Warning: D:/FPGA/build_boot_audio_20261025/src/user_source/hdl_source/include/sdr_init_ref.enc.v(213): (vlog-LRM-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+# 
+# 
+# Top level modules:
+# 	sdr_as_ram
+# End time: 21:07:17 on Oct 25,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 21:07:17 on Oct 25,2026
+# vlog -sv "+incdir+D:/FPGA/build_boot_audio_20261025/src/user_source/hdl_source/SD" "+incdir+D:/FPGA/build_boot_audio_20261025/src/user_source/hdl_source/include" D:/FPGA/build_boot_audio_20261025/src/user_source/hdl_source/SD/frame_read_write.v D:/FPGA/build_boot_audio_20261025/src/user_source/hdl_source/SD/frame_fifo_read.v D:/FPGA/build_boot_audio_20261025/src/user_source/hdl_source/SD/frame_fifo_write.v D:/FPGA/build_boot_audio_20261025/src/user_source/hdl_source/IP/afifo_32_16_256.v D:/FPGA/build_boot_audio_20261025/src/user_source/hdl_source/IP/afifo_16_32_256.v D:/FPGA/build_boot_audio_20261025/src/user_source/hdl_source/SD/video_timing_data.v D:/FPGA/build_boot_audio_20261025/src/user_source/hdl_source/SD/color_bar.v verification/tb_memory_bandwidth_40.v 
+# -- Compiling module frame_read_write
+# -- Compiling module frame_fifo_read
+# -- Compiling module frame_fifo_write
+# -- Compiling module rfifo_32_32_512
+# -- Compiling module fifo_cross_domain_addr_process_al_rfifo_32_32_512
+# -- Compiling module ram_infer_rfifo_32_32_512
+# -- Compiling module wfifo_32_32_512
+# -- Compiling module fifo_cross_domain_addr_process_al_wfifo_32_32_512
+# -- Compiling module ram_infer_wfifo_32_32_512
+# -- Compiling module video_timing_data
+# -- Compiling module color_bar
+# -- Compiling module tb_memory_bandwidth_40
+# 
+# Top level modules:
+# 	tb_memory_bandwidth_40
+# End time: 21:07:17 on Oct 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -do "verification/check_memory.do" -l verification/bandwidth.log 
+# Start time: 21:07:17 on Oct 25,2026
+# Loading sv_std.std
+# Loading work.tb_memory_bandwidth_40
+# Loading work.sdr_as_ram
+# Loading work.sdr_init_ref
+# Loading work.video_timing_data
+# Loading work.color_bar
+# Loading work.frame_read_write
+# Loading work.wfifo_32_32_512
+# Loading work.fifo_cross_domain_addr_process_al_wfifo_32_32_512
+# Loading work.ram_infer_wfifo_32_32_512
+# Loading work.frame_fifo_write
+# Loading work.rfifo_32_32_512
+# Loading work.fifo_cross_domain_addr_process_al_rfifo_32_32_512
+# Loading work.ram_infer_rfifo_32_32_512
+# Loading work.frame_fifo_read
+# ** Warning: (vsim-3017) D:/FPGA/build_boot_audio_20261025/src/user_source/hdl_source/SD/frame_read_write.v(92): [TFMPC] - Too few port connections. Expected 14, found 11.
+# 
+#         Region: /tb_memory_bandwidth_40/frames_io/write_buf
+# ** Warning: (vsim-3722) D:/FPGA/build_boot_audio_20261025/src/user_source/hdl_source/SD/frame_read_write.v(92): [TFMPC] - Missing connection for port 'valid'.
+# 
+# ** Warning: (vsim-3722) D:/FPGA/build_boot_audio_20261025/src/user_source/hdl_source/SD/frame_read_write.v(92): [TFMPC] - Missing connection for port 'afull'.
+# 
+# ** Warning: (vsim-3722) D:/FPGA/build_boot_audio_20261025/src/user_source/hdl_source/SD/frame_read_write.v(92): [TFMPC] - Missing connection for port 'aempty'.
+# 
+# ** Warning: (vsim-3017) D:/FPGA/build_boot_audio_20261025/src/user_source/hdl_source/IP/afifo_16_32_256.v(231): [TFMPC] - Too few port connections. Expected 16, found 14.
+# 
+#         Region: /tb_memory_bandwidth_40/frames_io/write_buf/ram_inst
+# ** Warning: (vsim-3722) D:/FPGA/build_boot_audio_20261025/src/user_source/hdl_source/IP/afifo_16_32_256.v(231): [TFMPC] - Missing connection for port 'doa'.
+# 
+# ** Warning: (vsim-3722) D:/FPGA/build_boot_audio_20261025/src/user_source/hdl_source/IP/afifo_16_32_256.v(231): [TFMPC] - Missing connection for port 'dib'.
+# 
+# ** Warning: (vsim-3017) D:/FPGA/build_boot_audio_20261025/src/user_source/hdl_source/SD/frame_read_write.v(144): [TFMPC] - Too few port connections. Expected 14, found 11.
+# 
+#         Region: /tb_memory_bandwidth_40/frames_io/read_buf
+# ** Warning: (vsim-3722) D:/FPGA/build_boot_audio_20261025/src/user_source/hdl_source/SD/frame_read_write.v(144): [TFMPC] - Missing connection for port 'valid'.
+# 
+# ** Warning: (vsim-3722) D:/FPGA/build_boot_audio_20261025/src/user_source/hdl_source/SD/frame_read_write.v(144): [TFMPC] - Missing connection for port 'afull'.
+# 
+# ** Warning: (vsim-3722) D:/FPGA/build_boot_audio_20261025/src/user_source/hdl_source/SD/frame_read_write.v(144): [TFMPC] - Missing connection for port 'aempty'.
+# 
+# ** Warning: (vsim-3017) D:/FPGA/build_boot_audio_20261025/src/user_source/hdl_source/IP/afifo_32_16_256.v(231): [TFMPC] - Too few port connections. Expected 16, found 14.
+# 
+#         Region: /tb_memory_bandwidth_40/frames_io/read_buf/ram_inst
+# ** Warning: (vsim-3722) D:/FPGA/build_boot_audio_20261025/src/user_source/hdl_source/IP/afifo_32_16_256.v(231): [TFMPC] - Missing connection for port 'doa'.
+# 
+# ** Warning: (vsim-3722) D:/FPGA/build_boot_audio_20261025/src/user_source/hdl_source/IP/afifo_32_16_256.v(231): [TFMPC] - Missing connection for port 'dib'.
+# 
+# SDRAM initialized at           3277763000, refresh interval=       1230 cycles
+# Progress: frame=          1 accepted=      68353 issued=      68096 refreshes=        555 t=         20366540000
+# Progress: frame=          2 accepted=     135553 issued=     135424 refreshes=       1098 t=         37166540000
+# Progress: frame=          3 accepted=     202753 issued=     202496 refreshes=       1640 t=         53966540000
+# Progress: frame=          4 accepted=     269953 issued=     269824 refreshes=       2183 t=         70766540000
+# Progress: frame=          5 accepted=     307200 issued=     307200 refreshes=       2726 t=         87566540000
+# PASS: encrypted 40MHz SDR controller + real FIFOs,           5 full video frames, 307200 writes accepted/issued, no FIFO overflow/underflow, min read level=          1, refresh commands=       2726, min/max refresh gap=19925.0/64000.0 ns.
+# ** Note: $finish    : verification/tb_memory_bandwidth_40.v(103)
+#    Time: 87566540 ns  Iteration: 3  Instance: /tb_memory_bandwidth_40
+# End time: 21:10:04 on Oct 25,2026, Elapsed time: 0:02:47
+# Errors: 0, Warnings: 14

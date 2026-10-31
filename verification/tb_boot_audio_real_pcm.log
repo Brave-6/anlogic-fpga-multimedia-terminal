@@ -1,0 +1,2 @@
+﻿PASS real boot clip: source ROM -> delayed player -> I2S receiver, 6144 stereo frames at 48kHz, 5993 nonzero, silence before ready, one start event.
+D:\Desktop\��·(����)\boot_audio_candidate\verification\tb_boot_audio_real_pcm.v:43: $finish called at 128229860000 (1ps)

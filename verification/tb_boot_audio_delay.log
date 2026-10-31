@@ -1,0 +1,2 @@
+﻿PASS delayed boot audio: readiness+exact delay, countdown restart, once per reset, emergency preemption/cancellation/deadline collision, clear priority and reset rearm.
+D:\Desktop\��·(����)\boot_audio_candidate\verification\tb_boot_audio_delay.v:51: $finish called at 10200000 (1ps)

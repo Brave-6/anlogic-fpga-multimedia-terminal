@@ -1,0 +1,2 @@
+﻿PASS: sequential valid/invalid BMP scan and load headers reject wrong signature, width, height, bit depth and compression without stale validation.
+D:\Desktop\��·(����)\boot_audio_candidate\verification\tb_bmp_header_validation.v:63: $finish called at 67350000 (1ps)

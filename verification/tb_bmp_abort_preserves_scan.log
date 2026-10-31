@@ -1,0 +1,2 @@
+﻿PASS: load abort preserves completed scan and permits direct retry.
+D:\Desktop\��·(����)\boot_audio_candidate\verification\reference_tests\tb_bmp_abort_preserves_scan.v:35: $finish called at 5330000 (1ps)

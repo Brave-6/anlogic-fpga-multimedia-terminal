@@ -1,0 +1,2 @@
+﻿PASS recovery integration: real BMP parser, 307200 pixel writes, memory completion plus asynchronous frame ACK before scan resume, P1 fade and ordered catalogue.
+D:\Desktop\��·(����)\boot_audio_candidate\verification\tb_fast_boot_pipeline.v:78: $finish called at 9484960000 (1ps)

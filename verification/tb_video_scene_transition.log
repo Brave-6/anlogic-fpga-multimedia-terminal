@@ -1,0 +1,2 @@
+﻿PASS: 24-frame fade-out, 36-frame fade-in, atomic commit, P4 entry/exit direct, fade interruption, stale-target rejection, reset. Commits=5
+D:\Desktop\��·(����)\boot_audio_candidate\verification\reference_tests\tb_video_scene_transition.v:79: $finish called at 99920000 (1ps)

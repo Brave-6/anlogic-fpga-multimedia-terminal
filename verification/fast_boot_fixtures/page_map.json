@@ -1,0 +1,34 @@
+﻿[
+    {
+        "File":  "P1.bmp",
+        "Length":  921654,
+        "CRC32":  "E50B1743",
+        "SHA256":  "4F6F8ED65E6015D6E404DC1F95A461ED27AB38A12C99ED72211B8C7FD082E865",
+        "StartSector":  null,
+        "PhysicalVerified":  false
+    },
+    {
+        "File":  "P2.bmp",
+        "Length":  921654,
+        "CRC32":  "1D21DFEC",
+        "SHA256":  "601AC98A0F4F8F3B595D7C6AE65F771D2A2C13A85E17D5AA6BFFA43AB6311C97",
+        "StartSector":  null,
+        "PhysicalVerified":  false
+    },
+    {
+        "File":  "P3.bmp",
+        "Length":  921654,
+        "CRC32":  "7AEC90D2",
+        "SHA256":  "4C5AEA85ED911FFF8BC66ACAEFC5E87FBBC391535D3869F4BE7F029671379DFD",
+        "StartSector":  null,
+        "PhysicalVerified":  false
+    },
+    {
+        "File":  "P4.bmp",
+        "Length":  921654,
+        "CRC32":  "C7B4CD6C",
+        "SHA256":  "7F471318004FA0169A773D2DEEB15B092839CEDE25620AEACB6DD9D0A0EBB6D7",
+        "StartSector":  null,
+        "PhysicalVerified":  false
+    }
+]

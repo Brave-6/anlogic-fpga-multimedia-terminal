@@ -1,0 +1,18 @@
+﻿load page=0 bank=0 t=165000
+ack accept=1 page=0 t=2655000
+load page=1 bank=1 t=48005000
+ack accept=1 page=1 t=58975000
+load page=2 bank=0 t=154325000
+ack accept=0 page=2 t=156255000
+load page=3 bank=0 t=156275000
+ack accept=1 page=3 t=158815000
+load page=1 bank=1 t=329745000
+ack accept=1 page=1 t=330335000
+load page=2 bank=0 t=660255000
+ack accept=1 page=2 t=670815000
+load page=0 bank=0 t=686305000
+ack accept=0 page=0 t=688815000
+load page=3 bank=0 t=688835000
+ack accept=1 page=3 t=691375000
+PASS async SD/video pipeline: startup3s/daily8s after fade with deadline, double completion, mailbox ownership, emergency during load, P4 isolation, direct exit/dwell reset, KEY4 pause/resume.
+D:\Desktop\��·(����)\boot_audio_candidate\verification\reference_tests\tb_scene_pipeline.v:106: $finish called at 691440000 (1ps)

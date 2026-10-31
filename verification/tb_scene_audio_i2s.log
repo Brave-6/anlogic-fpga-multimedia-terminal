@@ -1,0 +1,2 @@
+﻿PASS: boot, emergency, and all-clear events select and pre-empt the expected clips.
+D:\Desktop\��·(����)\boot_audio_candidate\verification\reference_tests\tb_scene_audio_i2s.v:25: $finish called at 220000 (1ps)

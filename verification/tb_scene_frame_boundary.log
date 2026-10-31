@@ -1,0 +1,2 @@
+﻿PASS: real 800x525 video timing, 25/40MHz CDC, buffer address before read ACK, 10 frame handshakes.
+D:\Desktop\��·(����)\boot_audio_candidate\verification\tb_scene_frame_boundary.v:56: $finish called at 168290720000 (1ps)

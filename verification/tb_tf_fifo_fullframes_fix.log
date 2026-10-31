@@ -1,0 +1,4 @@
+﻿PASS full frame 1: all 307200 words accepted, dequeued and issued once.
+PASS full frame 2: all 307200 words accepted, dequeued and issued once.
+PASS: two complete 640x480 frames survive repeated reset-before-ack handshakes.
+D:\Desktop\��·(����)\boot_audio_candidate\verification\tb_tf_fifo_fullframes_fix.v:47: $finish called at 24590450000 (1ps)

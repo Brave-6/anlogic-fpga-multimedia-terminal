@@ -1,0 +1,4 @@
+﻿PASS fast boot: four header sectors only, full 307200-pixel P1 before catalogue completion, exact EOF and resume.
+PASS fallback: CRC corruption in each slot, no partial-map exposure, P1 yield, abort and saved-position resume.
+PASS recovery: truncated-sector rejection, card-init loss, reset, repeat boot.
+D:\Desktop\��·(����)\boot_audio_candidate\verification\tb_fast_boot_scan.v:120: $finish called at 10211530000 (1ps)

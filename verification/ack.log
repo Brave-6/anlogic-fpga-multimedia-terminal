@@ -1,0 +1,2 @@
+﻿PASS: asynchronous level ACK crosses two clk stages; BMP write request is held until synchronized ACK, and ACK clears after request deassertion.
+D:\Desktop\��·(����)\boot_audio_candidate\verification\tb_sd_write_req_ack_cdc.v:130: $finish called at 276000 (1ps)

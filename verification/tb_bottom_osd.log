@@ -1,0 +1,2 @@
+﻿PASS bottom OSD: 2704368 stream checks; P1/invalid bypass, alpha, glyphs, five levels, bounce/hold, frame latch, popup and scrolling.
+D:\Desktop\��·(����)\boot_audio_candidate\verification\reference_tests\tb_bottom_osd.v:128: $finish called at 27043755000 (1ps)

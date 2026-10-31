@@ -1,0 +1,2 @@
+﻿PASS: real 2x1 RGB24 BMP stream emits two pixels and exactly one EOF completion pulse.
+D:\Desktop\��·(����)\boot_audio_candidate\verification\reference_tests\tb_bmp_load_done_real.v:57: $finish called at 10410000 (1ps)

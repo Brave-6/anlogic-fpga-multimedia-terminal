@@ -1,0 +1,10 @@
+﻿sample 1 left=000000 right=000000
+sample 2 left=000000 right=000000
+sample 3 left=000000 right=000000
+sample 4 left=000000 right=000000
+sample 5 left=000000 right=000000
+sample 6 left=000000 right=000000
+sample 7 left=000000 right=000000
+sample 8 left=100000 right=100000
+PASS: scene ROM -> I2S -> HDMI receiver produced stereo nonzero PCM at ~48 kHz.
+D:\Desktop\��·(����)\boot_audio_candidate\verification\reference_tests\tb_scene_audio_chain.v:55: $finish called at 626020000 (1ps)
